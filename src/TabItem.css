@@ -1,0 +1,31 @@
+.tab-item {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+}
+
+.style {
+  color: yellow;
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+@media (max-width: 680px) {
+  .tab-item {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+  }
+
+  .style {
+    color: yellow;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+}
